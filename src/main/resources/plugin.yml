@@ -4,6 +4,12 @@ main: com.mobdropeditor.MobDropEditorPlugin
 folia-supported: true
 description: Advanced custom mob drop editor GUI with Folia and legacy cross-version support.
 author: MobDropEditor
+commands:
+  mobdrops:
+    description: MobDropEditor main command
+    usage: /mobdrops
+    aliases: [mobdrop, mde]
+    permission: mobdrops.admin
 permissions:
   mobdrops.admin:
     description: Full access to MobDropEditor commands and GUI.
