@@ -1,0 +1,19 @@
+name: MobDropEditor
+version: 1.0.0
+main: com.mobdropeditor.MobDropEditorPlugin
+folia-supported: true
+description: Advanced custom mob drop editor GUI with Folia and legacy cross-version support.
+author: MobDropEditor
+permissions:
+  mobdrops.admin:
+    description: Full access to MobDropEditor commands and GUI.
+    default: op
+  mobdrops.reload:
+    description: Access to reload MobDropEditor plugin configuration.
+    default: op
+  mobdrops.edit:
+    description: Permission to edit mob drops in GUI or via commands.
+    default: op
+  mobdrops.view:
+    description: Permission to view mob drops GUI.
+    default: op

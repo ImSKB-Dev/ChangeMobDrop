@@ -1,0 +1,14 @@
+# MobDropEditor Configuration
+storage:
+  type: "YAML" # Options: YAML, SQLITE
+  sqlite:
+    file: "database.db"
+
+messages:
+  prefix: "&8[&6MobDrops&8] "
+  no-permission: "&cVocê não possui permissão para executar este comando."
+  reloaded: "&aConfiguração recarregada com sucesso!"
+  saved: "&aConfiguração salva com sucesso!"
+  mob-not-found: "&cMob '%mob%' não foi encontrado."
+  drop-added: "&aDrop adicionado para %mob%!"
+  drop-removed: "&cDrop %id% removido de %mob%."
